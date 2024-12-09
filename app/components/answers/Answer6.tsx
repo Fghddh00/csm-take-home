@@ -1,6 +1,9 @@
 import Link from 'next/link';
 import React from 'react';
 
+// Disable the ESLint rule for unescaped entities
+/* eslint-disable react/no-unescaped-entities */
+
 const Answer6: React.FC = () => {
   return (
     <div>
